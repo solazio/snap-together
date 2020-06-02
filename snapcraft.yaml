@@ -5,10 +5,12 @@ description: >
   Just a test python snap
 
 confinement: strict
-base: core18
+base: core20
 
 architectures:
-  - build-on: core20
+  - build-on: i386
+  - build-on: amd64
+  - build-on: arm64
 
 parts:
   together-we-win:
